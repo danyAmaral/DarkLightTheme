@@ -1,0 +1,22 @@
+<div class="content {{storedTheme}}" role="main">
+  <h5 class="title">(Light/Dark Mode)</h5>
+  <div class="content-box">
+    <div class="theme-switcher-wrap">
+      <label 
+      [ngClass]="(storedTheme == 'theme-dark' ? 'theme-switcher active': 'theme-switcher')"
+      (click)="setTheme()">
+        <div class="switch-path">
+          <div class="switch-handle"></div>
+        </div>
+      </label>
+    </div>
+    <h3>Custom Dark Theme Toggler / Angular</h3>
+    <h5>(Angular, SCSS/CSS, Local Storage)</h5>
+    <p>
+      Aprendendo alterar themas em angular.
+    </p>
+    <p>
+      Danielle Amaral
+    </p>
+  </div>
+</div>
